@@ -1,0 +1,185 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+
+  }
+
+  body{
+   display: flex;
+   height: 100vh;
+  align-items: center;
+   background-image: url('karl.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+    justify-content: center;
+ 
+  
+  /*background: #262626;*/
+
+
+}
+
+
+ul li{
+  display: flex;
+  height: 150vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+
+
+}
+ul li{
+position: relative;
+display:block;
+color: #000000;
+font-size: 30px;
+height: 60px;
+width: 60px;
+background: #740000;
+line-height: 60px;
+border-radius: 50%;
+margin: 0 15px;
+cursor: pointer;
+
+
+}
+  
+
+  ul li:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: red;
+    height: 100%;
+    width:100%;
+    border-radius:50%;
+    z-index: -1;
+    transform: scale(0.9);
+    transition: .5s;
+
+  }
+    ul li:nth-child(1):before{
+        background: #d20d10;
+
+      }
+      ul li:nth-child(2):before{
+        top: 0;
+        left: 50;
+          background: #f21d32;
+
+        }
+        ul li:nth-child(3):before{
+            background: #e01b22;
+
+          }
+          ul li:nth-child(4):before{
+              background: #d31313;
+
+
+            }
+            body div:nth-child(4):before{
+                background: #FF0000;
+    }
+
+  ul li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+   box-shadow: 0 0 15px #d35400;
+
+  }
+  ul li:nth-child(1):hover:before{
+   box-shadow: 0 0 15px #c00d0d;
+
+   
+  }
+   ul li:nth-child(2):hover:before{
+   box-shadow: 0 0 15px #eb1515;
+
+   
+  }
+  ul li:nth-child(3):hover:before{
+   box-shadow: 0 0 15px #E1306C;
+
+
+  }
+  ul li:nth-child(4):hover:before{
+   box-shadow: 0 0 15px #dc2424;
+
+  }
+  ul li:nth-child(5):hover:before{
+   box-shadow: 0 0 15px #ff0000;
+
+
+  }
+
+  ul li:nth-child(1) hover{
+    color: #d02d2d;
+    box-shadow: 0 0 15px #c11818;
+    text-shadow: 0 0 15px #cb1d1d;
+
+    
+  }
+
+ ul li:nth-child(2) hover{
+    color: #f23a26;
+    box-shadow: 0 0 15px #b70505;
+    text-shadow: 0 0 15px #c22b09;
+
+
+  }
+
+  ul li:nth-child(3) hover{
+    color: #e23670;
+    box-shadow: 0 0 15px #E1206C;
+    text-shadow: 0 0 15px #E1206C;
+
+    
+  }
+
+  ul li:nth-child(4) hover{
+    color: #f23426;
+    box-shadow: 0 0 15px #b23d28;
+    text-shadow: 0 0 15px #c6180f;
+
+    
+  }
+
+  ul li:nth-child(5) hover{
+    color: #ff1a1a;
+    box-shadow: 0 0 15px #ff0000;
+    text-shadow: 0 0 15px #ff0000;
+    
+
+
+
+
+  }
+
+
+
+
+
+
+  
+  
+
+
+  
+
+
+
+
+     
+
+
+
+
+
+
